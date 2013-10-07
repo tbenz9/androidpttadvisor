@@ -363,13 +363,13 @@ public class MainView extends Activity {
         
         // Determine if the user hit the restart button at the bottom of the screen or the done button at the end of the questions
         if (isFinished) {
-        	builder.setTitle("Patient Evaluation Complete");
-            builder.setMessage("Would you like to begin a new patient evaluation?");
+        	builder.setTitle("Troubleshooting Complete");
+            builder.setMessage("Would you like to begin a new session?");
             positiveButtonText = "Yes";
         }
         else {
-        	builder.setTitle("Restart Patient Evaluation");
-            builder.setMessage("Are you sure you want to restart the patient evaluation?");
+        	builder.setTitle("Restart Computer Evaluation");
+            builder.setMessage("Are you sure you want to restart the computer evaluation?");
             positiveButtonText = "OK";
         }
         

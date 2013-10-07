@@ -146,13 +146,14 @@
         },
         {
             "id": "22",
-            "question": "Unplug the router and modem wait a few seconds and plug them back in then reboot the computer.",
+            "question": "Un-plug the router plug it back in then reboot the computer.",
             "answers": [
                 {
                     "nodeId": "23",
                     "answer": "Continue"
                 }
             ],
+            "footnotes": [],
             "image": "eval_guide_header"
         },
         {
@@ -164,7 +165,7 @@
                     "answer": "Yes"
                 },
                 {
-                    "nodeId": "35",
+                    "nodeId": "27",
                     "answer": "No"
                 }
             ],
@@ -194,6 +195,7 @@
         {
             "id": "25",
             "question": "The problem is fixed!",
+            "footnotes": [],
             "image": "eval_guide_header"
         },
         {
@@ -257,6 +259,7 @@
             "id": "31",
             "question": "Your problem has been fixed!",
             "answers": [],
+            "footnotes": [],
             "image": "recommendation_header"
         },
         {
