@@ -9,7 +9,7 @@
                     "answer": "Yes"
                 },
                 {
-                    "nodeId": "21",
+                    "nodeId": "11",
                     "answer": "No"
                 }
             ],
@@ -25,7 +25,7 @@
                     "answer": "Yes"
                 },
                 {
-                    "nodeId": "22",
+                    "nodeId": "12",
                     "answer": "No"
                 }
             ],
@@ -138,18 +138,18 @@
             "image": "describe_pt_header"
         },
         {
-            "id": "21",
+            "id": "11",
             "question": "Hold down the power button until the computer reboots.",
             "answers": [],
             "footnotes": [],
             "image": "recommendation_header"
         },
         {
-            "id": "22",
+            "id": "12",
             "question": "Un-plug the router plug it back in then reboot the computer.",
             "answers": [
                 {
-                    "nodeId": "23",
+                    "nodeId": "13",
                     "answer": "Continue"
                 }
             ],
@@ -157,31 +157,31 @@
             "image": "eval_guide_header"
         },
         {
-            "id": "23",
+            "id": "13",
             "question": "Did you get an IP address?",
             "answers": [
                 {
-                    "nodeId": "24",
+                    "nodeId": "14",
                     "answer": "Yes"
                 },
                 {
-                    "nodeId": "27",
+                    "nodeId": "16",
                     "answer": "No"
                 }
             ],
             "footnotes": [],
-            "image": "describe_pt_header"
+            "image": "to_begin_header"
         },
         {
-            "id": "24",
+            "id": "14",
             "question": "Can you access the Internet?",
             "answers": [
                 {
-                    "nodeId": "25",
+                    "nodeId": "15",
                     "answer": "Yes"
                 },
                 {
-                    "nodeId": "27",
+                    "nodeId": "16",
                     "answer": "No"
                 }
             ],
@@ -190,47 +190,48 @@
                 "The router hands out IP addresses, if you are not getting an IP address it is probably a problem with the router or the connection.",
                 "If you are getting an IP address but cannot access the Internet it is probably a problem with the modem or your Internet provider."
             ],
-            "image": "describe_pt_header"
+            "image": "to_begin_header"
         },
         {
-            "id": "25",
+            "id": "15",
             "question": "The problem is fixed!",
+            "answers": [],
             "footnotes": [],
-            "image": "eval_guide_header"
+            "image": "to_begin_header"
         },
         {
-            "id": "27",
+            "id": "16",
             "question": "Is the DHCP server turned on in the router configuration?",
             "answers": [
                 {
-                    "nodeId": "28",
+                    "nodeId": "17",
                     "answer": "Yes"
                 },
                 {
-                    "nodeId": "29",
+                    "nodeId": "18",
                     "answer": "No"
                 }
             ],
             "footnotes": [],
-            "image": "describe_pt_header"
+            "image": "to_begin_header"
         },
         {
-            "id": "28",
+            "id": "17",
             "question": "Make sure all the cables are connected in the right spots.",
             "answers": [],
             "footnotes": [],
-            "image": "recommendation_header"
+            "image": "to_begin_header"
         },
         {
-            "id": "29",
+            "id": "18",
             "question": "Turn on the DHCP service, did you get an IP address.",
             "answers": [
                 {
-                    "nodeId": "30",
+                    "nodeId": "19",
                     "answer": "Yes"
                 },
                 {
-                    "nodeId": "32",
+                    "nodeId": "21",
                     "answer": "No"
                 }
             ],
@@ -238,15 +239,15 @@
             "image": "describe_pt_header"
         },
         {
-            "id": "30",
+            "id": "19",
             "question": "Can you get on the Internet?",
             "answers": [
                 {
-                    "nodeId": "31",
+                    "nodeId": "20",
                     "answer": "Yes"
                 },
                 {
-                    "nodeId": "32",
+                    "nodeId": "21",
                     "answer": "No"
                 }
             ],
@@ -256,22 +257,22 @@
             "image": "describe_pt_header"
         },
         {
-            "id": "31",
+            "id": "20",
             "question": "Your problem has been fixed!",
             "answers": [],
             "footnotes": [],
             "image": "recommendation_header"
         },
         {
-            "id": "32",
+            "id": "21",
             "question": "Call your Internet service provider, are they having an outage?",
             "answers": [
                 {
-                    "nodeId": "33",
+                    "nodeId": "22",
                     "answer": "Yes"
                 },
                 {
-                    "nodeId": "34",
+                    "nodeId": "23",
                     "answer": "No"
                 }
             ],
@@ -279,7 +280,7 @@
             "image": "describe_pt_header"
         },
         {
-            "id": "33",
+            "id": "22",
             "question": "Wait until the outage is over and try accessing the Internet again.",
             "answers": [],
             "footnotes": [
@@ -288,7 +289,7 @@
             "image": "recommendation_header"
         },
         {
-            "id": "34",
+            "id": "23",
             "question": "Replace your Router or Modem and try again.",
             "answers": [],
             "footnotes": [],
